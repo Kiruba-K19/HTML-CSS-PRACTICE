@@ -1,0 +1,34 @@
+.side-bar
+{
+  width: 72px;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  margin-top: 50px;
+  padding-top: 8px;
+
+}
+
+.sb-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 73px;
+  cursor: pointer;
+}
+.sb-box:hover{
+  background-color: rgb(240, 235, 235);
+}
+
+.sb-box div{
+  font-family: Roboto , Arial;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.home ,.library,.explore,.subscriptions,.originals ,.youtube-music
+{
+  width: 24px;
+}
